@@ -30,7 +30,7 @@ Any underlying punctuation marks are cleaned off using the library from the stri
 ## Convert the text into a matrix of token counts
 Using a CountVectorizer function
 
-## create and train the Multinomial Naive Bayes classifier which is suitable for classification with discrete features.
+Training the classifier with the training data and accordingly testing on the test data
 
 # Deployment
 The model is exported into pickle file and is imported into a streamlit web app to classify the incoming text as spam or not spam
